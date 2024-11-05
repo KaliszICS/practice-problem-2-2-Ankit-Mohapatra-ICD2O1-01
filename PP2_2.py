@@ -1,13 +1,11 @@
 
 
-def q1(): 
-   num = input(int("input an integer: "))
-   if num == 5:
+def q1():
+  num = input(input("Input an Integer: "))
+  if num == 5 :
       print("The number is Five")
-   else: 
-      print("The number is not Five")
-
-
+  else :
+      print("The number is not Five") 
 def q2(): 
   nums = input(float("Input a number: "))
   if nums > 0 :
@@ -24,9 +22,9 @@ def q3():
 
 def q4(): 
   user = input('Type, "Hello": ')
-   if user == "Hello" :
+  if user == "Hello" :
       print("The word is Hello")
-   else : 
+  else : 
       print("The word is not Hello")
 
 
