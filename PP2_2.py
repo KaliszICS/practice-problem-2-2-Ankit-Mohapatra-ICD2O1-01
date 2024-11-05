@@ -2,10 +2,10 @@
 
 def q1(): 
    num = input(int("input an integer: "))
-   if num == 5:
-      print("The number is Five")
-  else: 
-      print("The number is not Five")
+if num == 5:
+   print("The number is Five")
+else: 
+   print("The number is not Five")
 
 
 def q2(): 
@@ -19,7 +19,7 @@ def q3():
  numbs = input(int("Input an integer: "))
  if numbs%2 == 0:
     print("Even")
-  else : 
+ else : 
     print("Odd")
 
 def q4(): 
